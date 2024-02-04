@@ -1,5 +1,3 @@
-**Face Age Detection using GANs Style GANs**
-
 ## **Installation (VS Code)**
 
 1. Create a virtual environment in the terminal
