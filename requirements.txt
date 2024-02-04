@@ -1,0 +1,11 @@
+# TensorFlow for deep learning
+tensorflow==2.7.0
+
+# For working with images
+opencv-python==4.5.4.58
+Pillow==8.2.0
+
+# Additional libraries for GANs and Style GANs
+scikit-learn==0.24.2  # For data preprocessing
+matplotlib==3.4.3     # For visualization
+tqdm==4.62.3          # For progress bars
