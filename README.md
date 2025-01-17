@@ -1,10 +1,8 @@
 # Age Progression and Facial Alteration System for Forensic Investigations using GANs
 
-This repository contains the code and models for an innovative system that leverages Generative Adversarial Networks (GANs) to assist in forensic investigations. The system focuses on two key aspects:
+**Siddharth Kamath, Varun S Amin, Vinay Kumar U**
 
-1. **Sketch-to-Image Generation:** It transforms incomplete sketches into lifelike images using the powerful Pixel2Style2Pixel (pSp) GAN model. This enables investigators to generate more accurate visualizations of potential suspects or missing persons based on limited eyewitness descriptions or artistic renditions.
-
-2. **Age Progression:** The system incorporates HRFAE aging technique to simulate the natural aging process on the generated images. This allows investigators to predict how a person's appearance might change over time, aiding in the identification of individuals who may have aged since the initial incident.
+We present a GAN-powered framework designed to aid forensic investigations by addressing critical challenges in image processing. Our approach integrates advanced deep generative models such as HRFAE and Pixel2Style2Pixel (pSp) to perform two key tasks: age progression of facial images and transformation of sketches into photo-realistic images. Leveraging the capabilities of Generative Adversarial Networks (GANs) and the multi-faceted CelebA dataset, this framework enhances image synthesis for forensic applications, offering tools for improved identity verification and reconstruction of inferior-quality imagery. These advancements significantly contribute to the accuracy and visual presentation of forensic evidence for law enforcement.
 
 **Key Features:**
 
@@ -19,6 +17,9 @@ This repository contains the code and models for an innovative system that lever
 * Implement effective age progression techniques to simulate aging across different age ranges.
 * Evaluate the system's performance on real-world forensic case scenarios.
 * Explore potential applications beyond traditional forensic investigations.
+
+## Process Flow
+
 
 ## Installation
 
