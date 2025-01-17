@@ -19,3 +19,33 @@ This repository contains the code and models for an innovative system that lever
 * Implement effective age progression techniques to simulate aging across different age ranges.
 * Evaluate the system's performance on real-world forensic case scenarios.
 * Explore potential applications beyond traditional forensic investigations.
+
+## Installation
+
+Before running the project, ensure you have the required dependencies installed. Below is a list of the core libraries and PyTorch dependencies with their respective versions.
+
+### Core Libraries
+The following Python packages are required:
+- `numpy==1.18.1`
+- `scipy==1.1.0`
+- `pillow==6.1.0`
+- `pyyaml==5.3.1`
+- `protobuf==3.11.4`
+- `tensorboard-logger==0.1.0`
+- `tensorboardx==2.0`
+
+### PyTorch and CUDA
+Ensure you install the specific version of PyTorch and torchvision compatible with CUDA 10.0:
+- `torch==1.1.0+cu100`
+- `torchvision==0.3.0+cu100`
+
+You can install these packages using the following command:
+
+```bash```
+pip install -r requirements-HRFAE.txt requirements-PSP.txt
+
+## Technologies Used
+- Python
+- TensorFlow
+- PyTorch
+- GAN-based architectures
