@@ -20,10 +20,12 @@ We present a GAN-powered framework designed to aid forensic investigations by ad
 
 ## Process Flow
 <div id="header" align="center">
-  <img src= width="100%"/> 
+  <img src="/assets/Picture1.png" width="80%" /> 
 </div>
 
-## Installation
+---
+
+## Requirements and Installations
 
 Before running the project, ensure you have the required dependencies installed. Below is a list of the core libraries and PyTorch dependencies with their respective versions.
 
@@ -56,14 +58,65 @@ You can install these packages using the following command:
 pip install -r requirements.txt
 ```
 
+---
+
 ## Technologies Used
 - Python
 - TensorFlow
 - PyTorch
 - GAN-based architectures
 
-## Usage
-Clone the repository using 
+
+---
+
+## **Usage**
+
+### **Step 1: Clone Repositories**
+
+#### **Sketch-to-Face Conversion**
+Clone the repository for sketch-to-face transformation:
 ```bash
-git clone https://github.com/vinay-nmamit/FaceAgingGAN.git
+git clone https://github.com/AkhileshV/Sketch-to-face.git
 ```
+
+#### **Age Progression**
+Clone the repository for age progression using the HRFAE model:
+```bash
+git clone https://github.com/InterDigitalInc/HRFAE.git
+```
+
+#### **Sketch Simplification Tool**
+For sketch cleanup and simplification, clone the following repository. It includes pre-trained models from the paper _"Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup"_:
+```bash
+git clone https://github.com/bobbens/sketch_simplification.git
+```
+
+### **Step 2: Follow Module Instructions**
+Each repository contains detailed instructions for setup and execution. Follow these instructions after cloning to ensure proper functionality.
+
+---
+
+
+## Visual Gallery
+Here we showcase sample images demonstrating the capabilities of our framework across various tasks:
+
+**Image to Sketch Conversion (for Dataset Creation):**
+The transformation of realistic images into simplified sketches to prepare a diverse dataset for training and testing.
+<div id="header" align="center">
+  <img src="/assets/F2S.png" width="80%"/> 
+</div>
+<br>
+
+**Sketch to Image Conversion:**
+Translating basic sketches into photo-realistic images, preserving structural integrity and fine details.
+<div id="header" align="center">
+  <img src="/assets/S2F.png" width="80%"/> 
+</div>
+<br>
+
+**Age Progression:**
+Generating realistic age-progressed versions of facial images to illustrate identity evolution over time.
+<div id="header" align="center">
+  <img src="/assets/AP.png" width="100%" height="50%/> 
+</div>
+<br>
