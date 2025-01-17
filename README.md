@@ -117,6 +117,6 @@ Translating basic sketches into photo-realistic images, preserving structural in
 **Age Progression:**
 Generating realistic age-progressed versions of facial images to illustrate identity evolution over time.
 <div id="header" align="center">
-  <img src="/assets/AP.png" width="100%" height="50%/> 
+  <img src="/assets/AP.png" width="100%"/> 
 </div>
 <br>
