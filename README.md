@@ -49,3 +49,9 @@ pip install -r requirements-HRFAE.txt requirements-PSP.txt
 - TensorFlow
 - PyTorch
 - GAN-based architectures
+
+## Usage
+Clone the repository using 
+```bash
+git clone https://github.com/vinay-nmamit/FaceAgingGAN.git
+```
