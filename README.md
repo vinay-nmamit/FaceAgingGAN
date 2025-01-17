@@ -19,7 +19,9 @@ We present a GAN-powered framework designed to aid forensic investigations by ad
 * Explore potential applications beyond traditional forensic investigations.
 
 ## Process Flow
-
+<div id="header" align="center">
+  <img src= width="100%"/> 
+</div>
 
 ## Installation
 
