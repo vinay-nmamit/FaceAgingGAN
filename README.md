@@ -121,7 +121,7 @@ Leverages GANs to convert sketches into realistic human faces.
 ### CelebAHQ Dataset
 
 - **Dataset Link:** [Kaggle](https://www.kaggle.com/datasets/badasstechie/celebahq-resized-256x256)
-- **Synthetic Sketch Generation:** [Reference Code](https://github.com/AkhileshV/Sketch-to-face/blob/master/scripts/pencil_sketch_create_dataset.py)
+- **Synthetic Sketch Generation:** [Reference Code](GAN-s2f/scripts/pencil_sketch_create_dataset.py)
 
 ### Training Command for Sketch-to-Face Encoder
 
