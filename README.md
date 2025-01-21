@@ -66,37 +66,6 @@ pip install -r requirements.txt
 - PyTorch
 - GAN-based architectures
 
-
----
-
-## **Usage**
-
-### **Step 1: Clone Repositories**
-
-#### **Sketch-to-Face Conversion**
-Clone the repository for sketch-to-face transformation:
-```bash
-git clone https://github.com/AkhileshV/Sketch-to-face.git
-```
-
-#### **Age Progression**
-Clone the repository for age progression using the HRFAE model:
-```bash
-git clone https://github.com/InterDigitalInc/HRFAE.git
-```
-
-#### **Sketch Simplification Tool**
-For sketch cleanup and simplification, clone the following repository. It includes pre-trained models from the paper _"Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup"_:
-```bash
-git clone https://github.com/bobbens/sketch_simplification.git
-```
-
-### **Step 2: Follow Module Instructions**
-Each repository contains detailed instructions for setup and execution. Follow these instructions after cloning to ensure proper functionality.
-
----
-
-
 ## Visual Gallery
 Here we showcase sample images demonstrating the capabilities of our framework across various tasks:
 
@@ -148,6 +117,12 @@ Generating realistic age-progressed versions of facial images to illustrate iden
 
 ## The **important contribution** of the team is the script to **generate synthetic sketch images** using python and OpenCV. 
 The Code for reference is in [scripts/pencil_sketch_create_dataset.py](https://github.com/AkhileshV/Sketch-to-face/blob/master/scripts/pencil_sketch_create_dataset.py)
+
+#### **Sketch Simplification Tool**
+For sketch cleanup and simplification, clone the following repository. It includes pre-trained models from the paper _"Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup"_:
+```bash
+git clone https://github.com/bobbens/sketch_simplification.git
+```
 
 ## Steps to prepare dataset:
     1. Download CelebAHQ dataset
