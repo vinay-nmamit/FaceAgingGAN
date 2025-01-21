@@ -115,7 +115,7 @@ Generating realistic age-progressed versions of facial images to illustrate iden
 
 **The above dataset does not contain hand sketched images**
 
-## The **important contribution** of the team is the script to **generate synthetic sketch images** using python and OpenCV. 
+## You can **generate synthetic sketch images** using python and OpenCV. 
 The Code for reference is in [scripts/pencil_sketch_create_dataset.py](https://github.com/AkhileshV/Sketch-to-face/blob/master/scripts/pencil_sketch_create_dataset.py)
 
 #### **Sketch Simplification Tool**
