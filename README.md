@@ -124,14 +124,14 @@ For sketch cleanup and simplification, clone the following repository. It includ
 git clone https://github.com/bobbens/sketch_simplification.git
 ```
 
-## Steps to prepare dataset:
+### Steps to prepare dataset:
     1. Download CelebAHQ dataset
     2. Use the pencil_sketch_create_dataset.py script to generate synthetic sketch images.
     3. Split both images and sketches into train, test and val and create separate folders for individual splits
     4. Replace these paths in the paths_config.py file
 
 
-## To run training/testing on CelebAHQ dataset using Google Colab follow the steps mentioned in the below link:
+### To run training/testing on CelebAHQ dataset using Google Colab follow the steps mentioned in the below link:
 https://colab.research.google.com/drive/1YYNC-yscl2AA6nNJg7k35Re5b51g4jni?usp=sharing 
 
 **Training command for SketchtoFace Encoder:**
@@ -155,7 +155,7 @@ python scripts/train.py \
 --input_nc=1 
 
 
-## HRFAE: High Resolution Face Age Editing
+# HRFAE: High Resolution Face Age Editing
 
 Official implementation for paper [High Resolution Face Age Editing](https://arxiv.org/pdf/2005.04410.pdf).
 
@@ -164,7 +164,7 @@ You can also create a new environment for this repo by running
 conda env create -f env.yml
 ```
 
-## Load and test pretrained network 
+### Load and test pretrained network 
 
 1. You can download the pretrained model by running:
     ```
@@ -177,7 +177,7 @@ conda env create -f env.yml
     python test.py --config 001 --target_age 65
     ```
 
-## Train a new model
+### Train a new model
 
 1. Pretrained age classifier
 
